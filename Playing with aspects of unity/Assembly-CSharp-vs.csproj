@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{1D541F8D-A579-DEBA-123A-12CCE035BCF3}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_2;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\AnimationsScene\LeftArmRotateStopScript.cs" />
+     <Compile Include="Assets\Scripts\AnimationsScene\LeftHipStopScript.cs" />
+     <Compile Include="Assets\Scripts\AnimationsScene\LookUpDown.cs" />
+     <Compile Include="Assets\Scripts\AnimationsScene\RightArmRotateStopScript.cs" />
+     <Compile Include="Assets\Scripts\AnimationsScene\RightHipStopScript.cs" />
+     <Compile Include="Assets\Scripts\Gun\BulletDeathScript.cs" />
+     <Compile Include="Assets\Scripts\Gun\CameraLookScript.cs" />
+     <Compile Include="Assets\Scripts\Gun\GunRotateScript.cs" />
+     <Compile Include="Assets\Scripts\Gun\ShootScript.cs" />
+     <Compile Include="Assets\Scripts\Gun\TargetScript.cs" />
+     <Compile Include="Assets\Scripts\TileGame\AttemptsCounterScript.cs" />
+     <Compile Include="Assets\Scripts\TileGame\AttemptsGUIScript.cs" />
+     <Compile Include="Assets\Scripts\TileGame\BallMovement.cs" />
+     <Compile Include="Assets\Scripts\TileGame\DeathZoneScript1.cs" />
+     <Compile Include="Assets\Scripts\TileGame\DeathZoneScript2.cs" />
+     <Compile Include="Assets\Scripts\TileGame\LightsOnOff.cs" />
+     <Compile Include="Assets\Scripts\TileGame\LookUpDownScript.cs" />
+     <Compile Include="Assets\Scripts\TileGame\PointsGUIScript.cs" />
+     <Compile Include="Assets\Scripts\TileGame\RingSpin.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileFallScript.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileMovement1.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileMovement2.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileMovement3.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileMovement4.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileMovement5.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileMovement6.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileMovement7.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileMovement8.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileMovement9.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript1.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript10.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript11.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript12.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript13.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript14.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript15.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript16.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript17.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript18.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript19.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript2.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript20.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript21.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript22.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript23.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript24.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript25.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript26.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript27.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript28.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript29.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript3.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript30.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript31.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript32.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript33.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript34.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript35.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript36.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript37.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript38.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript4.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript5.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript6.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript7.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript8.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScript9.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScriptFinish.cs" />
+     <Compile Include="Assets\Scripts\TileGame\TileScriptStart.cs" />
+     <Compile Include="Assets\Scripts\WalkingAndLooking\AILookingScript.cs" />
+     <Compile Include="Assets\Scripts\WalkingAndLooking\CapMovement.cs" />
+     <Compile Include="Assets\Scripts\WalkingAndLooking\DeadAI1.cs" />
+     <Compile Include="Assets\Scripts\WalkingAndLooking\DeadAI2.cs" />
+     <Compile Include="Assets\Scripts\WalkingAndLooking\DeadAI3.cs" />
+     <Compile Include="Assets\Scripts\WalkingAndLooking\DeadAI4.cs" />
+     <Compile Include="Assets\Scripts\WalkingAndLooking\DeadAI5.cs" />
+     <Compile Include="Assets\Scripts\WalkingAndLooking\DeadAI6.cs" />
+     <Compile Include="Assets\Scripts\WalkingAndLooking\DeadAI7.cs" />
+     <Compile Include="Assets\Scripts\WalkingAndLooking\FiguringOutRaycastScript.cs" />
+     <Compile Include="Assets\Scripts\WalkingAndLooking\ToggleCamera.cs" />
+     <Compile Include="Assets\Scripts\WalkingAndLooking\WallDestroy.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
